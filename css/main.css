@@ -730,7 +730,8 @@ input[type="date" i] {
 
 @media (max-width: 992px) {
   .wrap_menu {
-    display: none;
+    /* display: none; */
+    padding-left: 0px !important; 
   }
 
   .wrap_header {
