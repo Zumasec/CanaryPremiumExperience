@@ -58,6 +58,14 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   .header-intro{
     background-attachment: inherit !important;
   }
+  .main_menu > li > a {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px;
+  }
 } 
 .boton:hover {
   color: black !important;
