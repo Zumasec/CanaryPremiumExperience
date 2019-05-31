@@ -39,6 +39,19 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*[ FONT ]
 ///////////////////////////////////////////////////////////
 */
+.icono{
+  width: 700px;
+}
+@media only screen and (max-width: 800px) {
+  .icono {
+    width: 110%;
+  }
+  .header-intro{
+    background-attachment: inherit !important;
+  }
+} 
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 @import url('https://fonts.googleapis.com/css?family=Courgette');
@@ -124,7 +137,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #dbae4dd1;
+	color: rgb(167, 138, 9);
 }
 
 /* ------------------------------------ */
@@ -159,11 +172,11 @@ textarea {
 
 textarea:focus, input:focus {
   border-color: transparent !important;
-  box-shadow: 0 0 0px 2px #dbae4dd1;
-  -moz-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -webkit-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -o-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -ms-box-shadow: 0 0 0px 2px #dbae4dd1;
+  box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -moz-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -webkit-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -o-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -ms-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -236,10 +249,10 @@ iframe {
 
 .cp-meter {
     border-radius: 50%;
-    border-top: solid 6px #dbae4dd1;
-    border-right: solid 6px #dbae4dd1;
-    border-bottom: solid 6px #dbae4dd1;
-    border-left: solid 6px #dbae4dd1;
+    border-top: solid 6px rgb(167, 138, 9);
+    border-right: solid 6px rgb(167, 138, 9);
+    border-bottom: solid 6px rgb(167, 138, 9);
+    border-left: solid 6px rgb(167, 138, 9);
     width: 48px;
     height: 48px;
     display: inline-block;
@@ -253,7 +266,7 @@ iframe {
     height: 12px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: #dbae4dd1;
+    background-color: rgb(167, 138, 9);
     position: absolute;
     top: 5px;
     left: 16px;
@@ -316,7 +329,7 @@ iframe {
 ///////////////////////////////////////////////////////////
 */
 td.active {
-  background-color: #dbae4dd1 !important;
+  background-color: rgb(167, 138, 9) !important;
 }
 
 input[type="date" i] {
@@ -378,11 +391,11 @@ input[type="date" i] {
 
 .select2-container--focus {
   border-radius: 10px;
-  box-shadow: 0 0 0px 2px #dbae4dd1;
-  -moz-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -webkit-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -o-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -ms-box-shadow: 0 0 0px 2px #dbae4dd1;
+  box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -moz-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -webkit-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -o-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -ms-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
 }
 
 .select2-container--focus .select2-selection--single {
@@ -391,11 +404,11 @@ input[type="date" i] {
 
 .select2-container--below.select2-container--open {
   border-radius: 10px;
-  box-shadow: 0 0 0px 2px #dbae4dd1;
-  -moz-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -webkit-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -o-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -ms-box-shadow: 0 0 0px 2px #dbae4dd1;
+  box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -moz-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -webkit-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -o-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -ms-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
 }
 
 .select2-container--below.select2-container--open .select2-selection--single {
@@ -404,11 +417,11 @@ input[type="date" i] {
 
 .select2-container--above.select2-container--open {
   border-radius: 10px;
-  box-shadow: 0 0 0px 2px #dbae4dd1;
-  -moz-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -webkit-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -o-box-shadow: 0 0 0px 2px #dbae4dd1;
-  -ms-box-shadow: 0 0 0px 2px #dbae4dd1;
+  box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -moz-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -webkit-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -o-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
+  -ms-box-shadow: 0 0 0px 2px rgb(167, 138, 9);
 }
 
 .select2-container--above.select2-container--open .select2-selection--single {
@@ -447,7 +460,7 @@ input[type="date" i] {
 
 .select2-container--default .select2-results__option[aria-selected=true],
 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   color: #fff;
 }
 
@@ -489,7 +502,7 @@ input[type="date" i] {
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #dbae4dd1;
+  border-top: 5px solid rgb(167, 138, 9);
 }
 
 .wrap_header {
@@ -509,7 +522,7 @@ input[type="date" i] {
 .header-fixed .wrap-menu-header {
   position: fixed;
   height: 100px;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.596);
   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -589,7 +602,7 @@ input[type="date" i] {
 }
 
 .main_menu > li:hover > a {
-  color: #dbae4dd1;
+  color: rgb(167, 138, 9);
   text-decoration: none;
 }
 
@@ -670,7 +683,7 @@ input[type="date" i] {
 }
 
 .social a:hover {
-  color: #dbae4dd1;
+  color: rgb(167, 138, 9);
 }
 
 .btn-show-sidebar {
@@ -686,8 +699,8 @@ input[type="date" i] {
 }
 
 .btn-show-sidebar:hover {
-  border-top: 2px solid #dbae4dd1;
-  border-bottom: 2px solid #dbae4dd1;
+  border-top: 2px solid rgb(167, 138, 9);
+  border-bottom: 2px solid rgb(167, 138, 9);
 }
 
 @media (max-width: 1200px) {
@@ -863,7 +876,7 @@ input[type="date" i] {
 .arrow-slick1:hover,
 .arrow-slick2:hover,
 .arrow-slick3:hover {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
 }
 
 .next-slick1,
@@ -934,12 +947,12 @@ input[type="date" i] {
 
 .slick1-dots li button:hover {
     border: 3px solid white;
-    background-color: #dbae4dd1;
+    background-color: rgb(167, 138, 9);
 }
 
 .slick1-dots li.slick-active button {
     border: 3px solid white;
-    background-color: #dbae4dd1;
+    background-color: rgb(167, 138, 9);
 } 
 
 /*[ Caption ]
@@ -975,7 +988,7 @@ input[type="date" i] {
 }
 
 .btn1:hover {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   color: white;
 }
 
@@ -988,7 +1001,7 @@ input[type="date" i] {
 }
 
 .btn3:hover {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   color: white;
 }
 
@@ -1003,7 +1016,7 @@ input[type="date" i] {
 }
 
 .btn2:hover {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   color: white;
 }
 
@@ -1087,13 +1100,13 @@ input[type="date" i] {
 
 
 .slick2-dots li button:hover {
-  border: 1px solid #dbae4dd1;
-  background-color: #dbae4dd1;
+  border: 1px solid rgb(167, 138, 9);
+  background-color: rgb(167, 138, 9);
 }
 
 .slick2-dots li.slick-active button {
-  border: 1px solid #dbae4dd1;
-  background-color: #dbae4dd1;
+  border: 1px solid rgb(167, 138, 9);
+  background-color: rgb(167, 138, 9);
 } 
 
 
@@ -1161,13 +1174,13 @@ input[type="date" i] {
 
 
 .slick3-dots li button:hover {
-  border: 1px solid #dbae4dd1;
-  background-color: #dbae4dd1;
+  border: 1px solid rgb(167, 138, 9);
+  background-color: rgb(167, 138, 9);
 }
 
 .slick3-dots li.slick-active button {
-  border: 1px solid #dbae4dd1;
-  background-color: #dbae4dd1;
+  border: 1px solid rgb(167, 138, 9);
+  background-color: rgb(167, 138, 9);
 } 
 
 
@@ -1198,7 +1211,7 @@ input[type="date" i] {
 
 /* ------------------------------------ */
 .effect1 {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   opacity: 0.9;
   position: relative;
 }
@@ -1414,7 +1427,7 @@ body {padding-right: 0px !important;}
 }
 
 .item-gallery-footer:hover:after {
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
 }
 
 
@@ -1514,7 +1527,7 @@ body {padding-right: 0px !important;}
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
   opacity: 0;
 }
 
@@ -1606,7 +1619,7 @@ body {padding-right: 0px !important;}
 }
 
 .btn-search-sidebar2:hover {
-  color: #dbae4dd1;
+  color: rgb(167, 138, 9);
 }
 
 .input-search-sidebar2 {
@@ -1626,5 +1639,5 @@ body {padding-right: 0px !important;}
   top: 20px;
   left: 20px;
   border-radius: 10px;
-  background-color: #dbae4dd1;
+  background-color: rgb(167, 138, 9);
 }
