@@ -42,14 +42,26 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .icono{
   width: 700px;
 }
+.icono2{
+  width: 550px;
+}
 @media only screen and (max-width: 800px) {
   .icono {
     width: 110%;
+  }
+  .icono2 {
+    width: 100%;
+  }
+  .boton{
+    display:block !important;
   }
   .header-intro{
     background-attachment: inherit !important;
   }
 } 
+.boton:hover {
+  color: black !important;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
