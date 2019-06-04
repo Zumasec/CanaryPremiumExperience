@@ -48,7 +48,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 @media only screen and (max-width: 800px) {
   .header-intro{
     background-attachment: inherit !important;
-    background-size: 140%;
+    background-size: 140% !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -63,7 +63,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   }
   .header-intro{
     background-attachment: inherit !important;
-    background-size: 140%;
+    background-size: 140% !important;
   }
   .main_menu > li > a {
     font-family: Montserrat;
