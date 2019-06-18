@@ -1024,13 +1024,14 @@ input[type="date" i] {
 ///////////////////////////////////////////////////////////
 */
 .btn3 {
-  background: #3a7472;;
+  width: 150px;
   border-radius: 10px;
 }
 
 .btn3:hover {
-  background-color: rgb(167, 138, 9);
-  color: white;
+  background-color: white;
+  color: rgb(167, 138, 9);
+  border-color:  rgb(167, 138, 9);
 }
 
 
