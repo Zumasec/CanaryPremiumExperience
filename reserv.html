@@ -27,7 +27,8 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+    
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -134,7 +135,7 @@
             </h3>
            
 
-			<form class="wrap-form-reservation size22 m-l-r-auto">
+			<form class="wrap-form-reservation size22 m-l-r-auto" >
 				<div class="row">
 					<div class="col-md-4">
 						<!-- Name -->
@@ -143,7 +144,7 @@
 						</span>
 
 						<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="Name">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" id="nombre" placeholder="Name">
 						</div>
 					</div>
 
@@ -154,7 +155,7 @@
 						</span>
 
 						<div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email" placeholder="Email">
+							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email" id="email" placeholder="Email">
 						</div>
 					</div>
 
@@ -165,7 +166,7 @@
 						</span>
 
 						<div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
-							<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="Phone">
+                            <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" id="telefono" name="phone" placeholder="Phone">
 						</div>
                     </div>
                     <div class="col-md-4">
@@ -174,7 +175,7 @@
                                 Viajeros
                             </span>
     
-                                    <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20">
+                                    <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20" id="viajeros">
                                             <option>Solo</option>
                                             <option>Pareja</option>
                                             <option>Grupo de amigos</option>
@@ -189,7 +190,7 @@
                                     Adultos
                                 </span>
                                 <div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
-                                        <input class="bo-rad-10 sizefull txt10 p-l-20" type="number" min="1" max="100" name="0" placeholder="0">
+                                        <input class="bo-rad-10 sizefull txt10 p-l-20" type="number" min="1" max="100" name="0" id="adultos" placeholder="0">
                                     </div>
                                 
                             </div>
@@ -199,7 +200,7 @@
                                         Como contactar con usted
                                     </span>
             
-                                            <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20">
+                                            <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20" id="medioc">
                                                     <option>Email</option>
                                                     <option>Llamada</option>
                                                     <option>Whatssap</option>
@@ -213,7 +214,7 @@
                                             Mes
                                         </span>
                 
-                                                <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20 ">
+                                                <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20 " id="mes">
                                                         <option>Enero</option>
                                                         <option>Febrero</option>
                                                         <option>Marzo</option>
@@ -235,7 +236,7 @@
                                                 Día
                                             </span>
                                             <div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
-                                                    <input class="bo-rad-10 sizefull txt10 p-l-20" type="number" name="0"  min="1" max="30" placeholder="0">
+                                                    <input class="bo-rad-10 sizefull txt10 p-l-20" type="number" name="0"  min="1" id="dia" max="30" placeholder="0">
                                                 </div>
                                             
                                         </div>
@@ -245,7 +246,7 @@
                                                 Año
                                             </span>
                     
-                                                    <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20">
+                                                    <select class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23 p-l-20" id="anio">
                                                             <option>2019</option>
                                                             <option>2020</option>
                                                             <option>2021</option>
@@ -259,13 +260,13 @@
 						<span class="txt9">
 							Comentarios
 						</span>
-						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message" placeholder="Message"></textarea>
+						<textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" id="comentario" name="message" placeholder="Message"></textarea>
 					</div>
 				</div>
 
 				<div class="wrap-btn-booking flex-c-m m-t-13">
 					<!-- Button3 -->
-					<button type="submit" class="btn btn-outline-dark btn3">
+					<button type="button" class="btn btn-outline-dark btn3" onclick="incidencias()">
 						Enviar
 					</button>
 				</div>
@@ -303,7 +304,7 @@
 							</span>
 
 							<span class="txt23 size38">
-                                    (+4) 922 22 22 22 
+                                    (+34) 666 39 02 56
 							</span>
 						</div>
 					</div>
@@ -342,7 +343,7 @@
             </div>
         </div>
     
-    
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
     <!--===============================================================================================-->
         <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -370,6 +371,7 @@
         <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
     <!--===============================================================================================-->
         <script src="js/main.js"></script>
+        <script src="js/js.js"></script>
     
     </body>
     </html>
